@@ -1,0 +1,53 @@
+body {
+    background-color: var(--cor-fundo);
+    height: 100vh;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-card);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    max-width: 400px;
+}
+
+.container .dica-numero {
+    margin-top: 30px;
+    font-size: 10px;
+    letter-spacing: 5px;
+    color: var(--cor-botao-texto);
+}
+
+.container .dica-texto{
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+    color: var(--cor-texto);
+}
+
+.container picture img{
+    width: 100%;
+}
+
+.container .botao {
+    width: 50px;
+    height: 50px;
+    background-color: var(--cor-botao-texto);
+    border-radius: 50%;
+    transform: translateY(85%);
+}
+
+.container .botao:hover {
+  color: #53FFAB;
+  cursor: pointer;
+  box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}

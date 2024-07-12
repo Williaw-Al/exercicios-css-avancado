@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(39, 39, 39);
+}
+
+/*---------------
+--MARK: HEADER--
+---------------*/
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 10px 20px;
+    background-color: var(--header-background);
+    box-shadow: 0 0 3px 3px var(--box-border);
+    margin-bottom: 20px;
+}
+
+.header .avatar-header{
+    max-width: 150px;
+}
+
+.header .titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    background-color: var(--box-fill);
+    text-align: center;
+    padding: 10px 50px;
+    border: 5px solid var(--box-border);
+    border-radius: 20px;
+    box-shadow:
+        inset 0 0 0 5px #1F1314;
+    position: relative;
+}
+
+.header .titulo h1{
+    color: var(--white);
+    font-family: var(--font-title);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 40px;
+    max-width: 190px;
+    letter-spacing: 4px;
+}
+
+.header .titulo::after,
+.header .titulo::before{
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -7px;
+}
+
+.header .titulo::before{
+    background-image: url(../images/dev-quest-border-left.png);
+    left: -7px;
+}
+
+.header .titulo::after{
+    background-image: url(../images/dev-quest-border-right.png);
+    right: -7px;
+}
+
+.header .titulo .star{
+    background: url(../images/dev-quest-estrela.png) space;
+    background-size: 30px;
+    width: 145px;
+    height: 40px;
+}
+
+/*---------------
+--MARK: MAIN--
+---------------*/
+.main{
+    padding-bottom: 20px;
+}
+
+.main .exercicios{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main .exercicios a{
+    max-width: 300px;
+    height: 450px;
+    text-align: center;
+}
+
+.main .exercicios a img{
+    opacity: 50%;
+    width: 90%;
+    transition: 0.3s ease-in-out;
+}
+
+.main .exercicios a:hover img{
+    opacity: 100%;
+    width: 100%;
+}

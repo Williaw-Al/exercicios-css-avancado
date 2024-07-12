@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+    body {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .cabecalho {
+        display: inline-block;
+    }
+
+    .cabecalho .logo {
+        justify-content: center;
+    }
+
+    .cabecalho .logo h1 {
+        font-size: 40px;
+    }
+
+    .menu ul {
+        display: block;
+        width: 233px;
+        padding: 50px 0;
+    }
+    
+    .menu ul li {
+        margin-top: 30px;
+    }
+}
+/* @media (max-width: 650px) {
+    .cabecalho {
+        flex-direction: column;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+} */

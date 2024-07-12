@@ -1,0 +1,41 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+}
+
+.pinturas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.imagem {
+    display: flex;
+    flex-direction: column;
+    max-width: 335px;
+    height: 430px;
+    margin: 10px;
+}
+
+.texto {
+    position: relative;
+    bottom: 90px;
+    left: 22px;
+    width: 300px;
+}
+
+.texto h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 5px;
+}

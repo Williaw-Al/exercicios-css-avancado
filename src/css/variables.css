@@ -1,0 +1,13 @@
+:root{
+    --white: #FFFFFF;
+}
+
+:root{
+    --header-background: rgb(94, 36, 206);
+    --box-fill: rgb(51, 35, 36);
+    --box-border: rgb(243, 167, 69);
+}
+
+:root{
+    --font-title: 'VT323', 'Courier New', sans-serif;
+}

@@ -1,0 +1,12 @@
+@media (max-width: 890px){
+    .header {
+        flex-direction: column;
+    }
+    
+    .header .titulo{
+        max-width: 300px;
+        padding: 10px;
+        min-height: 300px;
+        justify-content: space-evenly;
+    }
+}

@@ -1,0 +1,55 @@
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+
+.cabecalho .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cabecalho .logo img{
+    width: 45px;
+    height: 42px;
+}
+
+.cabecalho .logo h1{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.menu ul li a{
+    padding: 10px 6px;
+    align-self: center;
+    transition: 0.3s ease-in-out;
+}
+
+.menu ul li a:hover {
+    background-color: #5BC241;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.menu ul li a.botao {
+    padding: 10px 20px;
+    background-color: #5BC241;
+    border-radius: 10px;
+    color: #FFF;
+    font-weight: 300;
+    font-size: 15px;
+}

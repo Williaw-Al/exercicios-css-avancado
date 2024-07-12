@@ -1,0 +1,60 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(227, 10%, 46%);
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-container .profile-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    height: 350px;
+    gap: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.profile-card .perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.profile-container .perfil img{
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.profile-card .estatisticas {
+    border-top: 2px solid hsl(227, 10%, 46%) ;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.profile-card .estatisticas .numero, .nome{
+    font-weight: 700;
+    color: black;
+}
+
+.idade{
+    font-weight: 700;
+}
+
