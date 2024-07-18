@@ -79,7 +79,7 @@ body{
 /*---------------
 --MARK: MAIN--
 ---------------*/
-.main{
+.main nav{
     padding-bottom: 20px;
 }
 
@@ -90,7 +90,7 @@ body{
     flex-wrap: wrap;
 }
 
-.main .exercicios a{
+.main .exercicios li{
     max-width: 300px;
     height: 450px;
     text-align: center;

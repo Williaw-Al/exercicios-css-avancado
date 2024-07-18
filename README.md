@@ -65,4 +65,7 @@ Tudo isso pra ver a resolução e perceber que um simples flex-wrap já resolvia
 ## 🔥 Bora Pra Mais 🔥
 O legal de tudo é que eu consigo fazer essas coisas bem simples hoje em dia, então tá valendo a pena.
 
-Até a próxima!
+## 👨🏽‍💻 Mais Exercícios 👨🏽‍💻
+Aqui vai ficar a lista dos outros exercícios:
+- [CSS Grid](https://github.com/Williaw-Al/exercicio-css-grid)
+- [HTML+CSS básico](https://github.com/Williaw-Al/exercicios-html-css-basico)
