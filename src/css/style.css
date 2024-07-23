@@ -79,8 +79,11 @@ body{
 /*---------------
 --MARK: MAIN--
 ---------------*/
-.main nav{
-    padding-bottom: 20px;
+.main{
+    min-height: 75svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main .exercicios{
